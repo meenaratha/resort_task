@@ -1,0 +1,53 @@
+.hero.-type-5 .hero__content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    pointer-events: none; /* Allows clicks to pass through to the underlying elements */
+    z-index: -1;
+  }
+  .header__logo img{
+    max-width: 150px;
+  }
+  .header{
+    background-color: #fff;
+    height: 90px;
+  }
+  .img-relative{
+  position: relative;
+  }
+
+  .img-relative::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    pointer-events: none; /* Allows clicks to pass through to the underlying elements */
+    z-index: 1;
+  }
+  .roomCard__content {
+    background-color: rgb(5,85,135);
+  }
+  .bg-testimonial{
+    background-color: rgb(5,85,135);
+  }
+  .tag{
+    transition: all 0.3 ease;
+    overflow: visible;
+    border-left: 1px solid #ffff;
+    border-radius: none !important;
+  }
+  .tag:hover{
+    border: 1px solid rgb(5,85,135);
+  }
+  .tag-p span{
+    margin: 10px;
+    font-size: 12px;
+    
+  }
